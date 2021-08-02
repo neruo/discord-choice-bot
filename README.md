@@ -1,26 +1,28 @@
-# python3-dev-template
+# discord-choice-bot
 
-template repository for python3 development
+Discord bot that random choice from numbers or a list of strings
 
 ## Directory
 
 ```shell
-├── .vscode
-│   ├── launch.json
-│   └── settings.json
-├── dataset
-│   └── .gitkeep
-├── python3-dev-template
-│   ├── __init__.py
-│   ├── argument.py
-│   └── run.py
-├── tests
-│   └── .gitkeep
+(root)
+├── .github
+│   └── ISSUE_TEMPLATE
 ├── .gitignore
+├── .vscode
+│   ├── launch.json
+│   └── settings.json
 ├── LICENSE
+├── Procfile            # Heroku run file
 ├── README.md
+├── app.json            # Heroku app setting json
+├── discord_choice_bot  # Bot dirs
+│   ├── __init__.py
+│   └── run.py
 ├── poetry.lock
-└── pyproject.toml
+├── pyproject.toml
+├── requirements.txt    # poetry export requirements file
+└── runtime.txt         # Heroku runtime file
 ```
 
 ## Prerequisites
