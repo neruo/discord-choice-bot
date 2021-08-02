@@ -1,0 +1,1 @@
+discordbot: python discord_choice_bot/run.py
